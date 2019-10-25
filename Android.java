@@ -6,4 +6,6 @@ public class Main(String[] arr){
     public void printname(String message){
         System.out.println(message);
         }
+
+
 }
