@@ -10,13 +10,17 @@ public class Androidtable{
         Button btn=findViewbyId(R.Id.btn);
 
 
+
         btn.setOnclickListner(New View.OnclikListner{
 
             @Override
             public void onClick(View view){
-                
-                for(int i=1;i<=10;i++){
 
+                String text="";
+
+                for(int i=1;i<=10;i++){
+                    text=text+txtenter+"X"+i+"="+(txtenter*i)+"\n";
+                    resulttable.setText(text);
                 }
 
             }
